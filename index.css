@@ -1,0 +1,16 @@
+div{
+display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    background-color: bisque;
+}
+.container{
+    
+    background: url("img/descarga\ \(1\).jpg");
+       
+        background-attachment: fixed;
+        background-position: 100% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
