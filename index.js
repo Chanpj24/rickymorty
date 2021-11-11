@@ -9,10 +9,10 @@ fetch('https://rickandmortyapi.com/api/character/', {
         
         container.innerHTML += `
          <div> <img src=`   + results.image +  ` </div> <br>
-         <strong> ` + results.name  + ` </strong> <br>
-         <span> ` + results.species  + ` </span> <br>
-          <i> ` + results.status  + ` </i> <br>
-          <i> ` + results.origin.name  + ` </i> <br>
+         <h1> ` + results.name  + ` </h1> <br>
+         <h3> ` + results.species  + ` </h3> <br>
+          <p> ` + results.status  + ` </p> <br>
+          <p> ` + results.origin.name  + ` </p> <br>
          <hr>
          `; 
     })
