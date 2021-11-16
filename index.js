@@ -17,3 +17,6 @@ fetch('https://rickandmortyapi.com/api/character/', {
          `; 
     })
 })
+localStorage.setItem("rickMorty", listaApiRick);
+let rickMorty=localStorage.getItem("rickMorty");
+localStorage.removeItem("rickMorty");
